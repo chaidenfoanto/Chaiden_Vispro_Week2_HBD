@@ -23,11 +23,11 @@ Pastikan Anda sudah menginstal Dart SDK di sistem Anda. Anda dapat mengunduhnya 
    git clone https://github.com/chaiden/Chaiden_Vispro_Week2_HBD.git
     ```
 2. Masuk ke direktori proyek:
-```bash
-cd Chaiden_Vispro_Week2_HBD
-```
+   ```bash
+   cd Chaiden_Vispro_Week2_HBD
+   ```
 3. Install dependensi yang diperlukan dengan menjalankan perintah berikut:
-```
-dart pub get
-```
+   ```
+   dart pub get
+   ```
 Pastikan untuk memeriksa file pubspec.yaml untuk melihat semua dependensi yang diperlukan, termasuk dart_console yang digunakan untuk manipulasi konsol.
