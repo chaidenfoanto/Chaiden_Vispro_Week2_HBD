@@ -230,10 +230,10 @@ String getRandomColor() {
 }  
 
 void main() async {  
-  stdout.write("Masukkan banyak kembang api mu! : ");
+  stdout.write("Masukkan banyak kembang api mu : ");
    int? ulang = int.tryParse(stdin.readLineSync()!); 
   if (ulang == null || ulang <= 0) {
-    print("Jumlah kembang api tidak valid. Harap masukkan angka yang lebih besar dari 0.");
+    print("Jumlah kembang api tidak boleh kurang dari 1. Harap masukkan angka yang lebih besar dari 0.");
     return; 
   }
 
